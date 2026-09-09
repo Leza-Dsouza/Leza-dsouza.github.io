@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leza D'Souza | Instructional Designer</title>
+<meta name="description" content="Leza D'Souza — Instructional Designer creating learner-centered eLearning, training content, assessments and digital learning experiences.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+ --ink:#173b3a; --ink2:#234e4b; --muted:#61716f; --paper:#fbfaf6; --card:#ffffff;
+ --mint:#e4f0eb; --line:#dbe5e1; --coral:#e68b68; --gold:#d8ad55;
+}
+html {scroll-behavior:smooth}
+body {font-family:'DM Sans',sans-serif;background:var(--paper);color:var(--ink)}
+h1,h2,h3,h4,.display {font-family:'Manrope',sans-serif}
+.grid-bg {
+ background-image:linear-gradient(rgba(23,59,58,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(23,59,58,.045) 1px,transparent 1px);
+ background-size:32px 32px;
+}
+.glass {background:rgba(255,255,255,.78);backdrop-filter:blur(12px);border:1px solid rgba(219,229,225,.9)}
+.card {background:var(--card);border:1px solid var(--line);box-shadow:0 12px 35px rgba(23,59,58,.06)}
+.pill {border:1px solid var(--line);background:#fff;padding:.48rem .78rem;border-radius:999px;font-size:.83rem;font-weight:600;color:var(--ink2)}
+.navlink {color:#526260;font-weight:600;font-size:.9rem}
+.navlink:hover {color:var(--ink)}
+.project {transition:transform .25s ease, box-shadow .25s ease}
+.project:hover {transform:translateY(-5px);box-shadow:0 20px 45px rgba(23,59,58,.1)}
+.number {color:var(--coral);font-family:'Manrope',sans-serif;font-weight:800}
+.timeline-dot {box-shadow:0 0 0 7px var(--mint)}
+
+</style>
+
+<style>
+/* Premium portfolio layer */
+:root{
+  --ink:#102f2d;
+  --ink2:#244c49;
+  --muted:#647370;
+  --paper:#f7f5ef;
+  --card:#fffefa;
+  --mint:#e8f0ec;
+  --line:#d8e1dd;
+  --coral:#d97959;
+  --gold:#c9a24d;
+  --shadow:0 24px 70px rgba(16,47,45,.10);
+}
+body{
+  background:
+    radial-gradient(circle at 85% 8%,rgba(201,162,77,.08),transparent 24rem),
+    radial-gradient(circle at 8% 30%,rgba(45,117,109,.06),transparent 25rem),
+    var(--paper);
+}
+header{box-shadow:0 1px 0 rgba(16,47,45,.05)}
+.hero-profile{
+  position:relative;min-height:560px;overflow:hidden;border-radius:2rem;
+  background:#fffefa;border:1px solid var(--line);box-shadow:var(--shadow);
+  padding:30px;color:var(--ink);
+}
+.hero-profile:before{
+  content:"";position:absolute;width:320px;height:320px;border-radius:50%;
+  right:-130px;top:-120px;background:rgba(201,162,77,.10);filter:blur(4px);
+}
+.profile-head{position:relative;z-index:2;display:flex;justify-content:space-between;gap:20px;align-items:flex-start}
+.profile-head h2{font:800 2.15rem/1.02 'Manrope';letter-spacing:-.045em;margin-top:16px}
+.profile-head h2 em{font-style:normal;color:var(--coral)}
+.profile-number{font:800 .75rem 'Manrope';color:var(--coral)}
+.profile-grid{position:relative;z-index:2;display:grid;grid-template-columns:.9fr 1.1fr;gap:28px;margin-top:34px}
+.profile-feature{
+  min-height:300px;border-radius:1.4rem;padding:25px;
+  background:var(--ink);color:#fff;display:flex;flex-direction:column;justify-content:flex-end;
+  box-shadow:0 18px 45px rgba(16,47,45,.14);
+}
+.feature-number{position:absolute}
+.profile-feature .feature-number{color:#e8c47d;font:800 .7rem 'Manrope';align-self:flex-start;margin-bottom:auto}
+.profile-feature h3{font:800 1.8rem/1.05 'Manrope';letter-spacing:-.035em}
+.profile-feature p{font-size:.82rem;line-height:1.7;color:#c9d9d5;margin-top:16px}
+.profile-list{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.profile-item{display:grid;grid-template-columns:35px 1fr;gap:12px;padding:17px 0;border-bottom:1px solid var(--line)}
+.profile-item>span{font:800 .67rem 'Manrope';color:var(--coral);padding-top:2px}
+.profile-item strong{display:block;font:800 .88rem 'Manrope'}
+.profile-item small{display:block;color:var(--muted);font-size:.72rem;line-height:1.5;margin-top:4px}
+.profile-footer{
+  position:absolute;left:30px;right:30px;bottom:0;padding:17px 0;
+  border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:18px;
+  color:var(--muted);font:800 .58rem 'Manrope';letter-spacing:.1em
+}
+.profile-footer span:not(:last-child):after{content:"";display:inline-block;width:4px;height:4px;border-radius:50%;background:var(--gold);margin-left:18px;vertical-align:middle}
+@media(max-width:767px){
+  .hero-profile{min-height:610px;padding:22px}
+  .profile-head h2{font-size:1.75rem}
+  .profile-grid{grid-template-columns:1fr;gap:20px;margin-top:25px}
+  .profile-feature{min-height:205px}
+  .profile-footer{left:22px;right:22px;gap:10px}
+  .profile-footer span:not(:last-child):after{margin-left:10px}
+}
+</style>
+
+</head>
+<body>
+<header class="sticky top-0 z-50 glass">
+ <nav class="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between">
+  <a href="#home" class="font-extrabold tracking-tight text-lg">LEZA<span style="color:var(--coral)">.</span></a>
+  <div class="hidden md:flex gap-7">
+   <a class="navlink" href="#work">Work</a><a class="navlink" href="#experience">Experience</a>
+   <a class="navlink" href="#skills">Toolkit</a><a class="navlink" href="#about">About</a><a class="navlink" href="#contact">Contact</a>
+  </div>
+  <a href="#contact" class="rounded-full px-4 py-2 text-sm font-bold text-white" style="background:var(--ink)">Let's connect</a>
+ </nav>
+</header>
+
+<main>
+<section id="home" class="grid-bg">
+ <div class="max-w-6xl mx-auto px-5 pt-20 pb-24 md:pt-28 md:pb-32">
+  <div class="grid lg:grid-cols-[1.15fr_.85fr] gap-14 items-center">
+   <div>
+    <div class="inline-flex items-center gap-2 rounded-full px-3 py-2 mb-7" style="background:var(--mint);color:var(--ink2);font-size:.8rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase">
+      <span class="w-2 h-2 rounded-full" style="background:var(--coral)"></span> Instructional Designer
+    </div>
+    <h1 class="display text-5xl md:text-7xl font-extrabold leading-[.98] tracking-[-.045em]">
+      Learning that feels <span style="color:var(--coral)">clear, human & useful.</span>
+    </h1>
+    <p class="mt-7 text-lg md:text-xl leading-8 max-w-2xl" style="color:var(--muted)">
+      I design learner-centered digital learning experiences through instructional design, content development, curriculum design, educational research, and AI-assisted content creation.
+    </p>
+    <div class="mt-9 flex flex-wrap gap-3">
+      <a href="#work" class="rounded-full px-6 py-3 font-bold text-white" style="background:var(--ink)">Explore my work ↓</a>
+      <a href="#contact" class="rounded-full px-6 py-3 font-bold border" style="border-color:var(--line)">Get in touch</a>
+    </div>
+   </div>
+    <div class="hero-profile reveal">
+      <div class="profile-head">
+        <div>
+          <span class="eyebrow">Instructional Design Profile</span>
+          <h2>Designing learning with<br><em>purpose and clarity.</em></h2>
+        </div>
+        <span class="profile-number">01</span>
+      </div>
+
+      <div class="profile-grid">
+        <div class="profile-feature">
+          <span class="feature-number">02</span>
+          <h3>Learner-centered<br>by design.</h3>
+          <p>Turning complex information into structured, engaging learning experiences through clear objectives, meaningful practice, feedback and assessment.</p>
+        </div>
+
+        <div class="profile-list">
+          <div class="profile-item">
+            <span>01</span>
+            <div><strong>Instructional Strategy</strong><small>ADDIE · Bloom's Taxonomy · Adult Learning</small></div>
+          </div>
+          <div class="profile-item">
+            <span>02</span>
+            <div><strong>eLearning Development</strong><small>Articulate Storyline 360 · SCORM · LMS</small></div>
+          </div>
+          <div class="profile-item">
+            <span>03</span>
+            <div><strong>Content & Curriculum</strong><small>Storyboarding · Learning Objectives · Assessment</small></div>
+          </div>
+          <div class="profile-item">
+            <span>04</span>
+            <div><strong>AI-Assisted Workflow</strong><small>ChatGPT · Claude AI · Digital productivity</small></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-footer">
+        <span>6+ YEARS PROFESSIONAL EXPERIENCE</span>
+        <span>2 YEARS FOCUSED IN INSTRUCTIONAL DESIGN</span>
+        <span>STORYLINE 360</span>
+      </div>
+    </div>
+  </div>
+ </div>
+</section>
+
+<section id="work" class="max-w-6xl mx-auto px-5 py-24">
+ <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+  <div><p class="number text-sm tracking-[.2em] uppercase">01 / Selected work</p><h2 class="display text-4xl md:text-5xl font-extrabold mt-3">Instructional design projects</h2></div>
+  <p class="max-w-md leading-7" style="color:var(--muted)">Interactive learning built around objectives, scenarios, practice, feedback and meaningful learner engagement.</p>
+ </div>
+ <div class="grid md:grid-cols-2 gap-6">
+  
+  <article class="project card reveal rounded-[1.6rem] p-7 md:col-span-2">
+    <div class="flex items-start justify-between gap-5">
+      <span class="number text-3xl">01</span>
+      <span class="pill">Articulate Storyline 360</span>
+    </div>
+    <h3 class="display text-2xl font-extrabold mt-7">Mental Health Awareness & Coping Strategies</h3>
+    <p class="mt-3 leading-7" style="color:var(--muted)">A scenario-based eLearning experience focused on stage fright, coping strategies, stress management, and learner well-being.</p>
+    <div class="mt-6 flex flex-wrap gap-2"><span class="pill">Bloom-aligned learning objectives</span><span class="pill">Branching scenarios & knowledge checks</span><span class="pill">Learner feedback</span><span class="pill">LMS / SCORM-ready structure</span></div>
+  </article>
+  <article class="project card reveal rounded-[1.6rem] p-7 ">
+    <div class="flex items-start justify-between gap-5">
+      <span class="number text-3xl">02</span>
+      <span class="pill">Articulate Storyline 360</span>
+    </div>
+    <h3 class="display text-2xl font-extrabold mt-7">Psychology Interactive Learning Module</h3>
+    <p class="mt-3 leading-7" style="color:var(--muted)">An interactive psychology-focused learning experience that turns complex concepts into an engaging, learner-centered digital module.</p>
+    <div class="mt-6 flex flex-wrap gap-2"><span class="pill">Learner-centered structure</span><span class="pill">Interactive learning elements</span><span class="pill">Feedback for understanding</span><span class="pill">Retention-focused design</span></div>
+  </article>
+  <article class="project card reveal rounded-[1.6rem] p-7 ">
+    <div class="flex items-start justify-between gap-5">
+      <span class="number text-3xl">03</span>
+      <span class="pill">Articulate Storyline 360</span>
+    </div>
+    <h3 class="display text-2xl font-extrabold mt-7">POSH Compliance Training</h3>
+    <p class="mt-3 leading-7" style="color:var(--muted)">A workplace compliance learning experience covering prevention, reporting procedures, employee responsibilities, and organizational policies.</p>
+    <div class="mt-6 flex flex-wrap gap-2"><span class="pill">Realistic workplace scenarios</span><span class="pill">Interactive quizzes & knowledge checks</span><span class="pill">Learner feedback</span><span class="pill">Adult-learning principles</span></div>
+  </article>
+  <article class="project card reveal rounded-[1.6rem] p-7 ">
+    <div class="flex items-start justify-between gap-5">
+      <span class="number text-3xl">04</span>
+      <span class="pill">Articulate Storyline 360</span>
+    </div>
+    <h3 class="display text-2xl font-extrabold mt-7">Employee Onboarding Program</h3>
+    <p class="mt-3 leading-7" style="color:var(--muted)">A structured onboarding experience covering orientation, workplace expectations, policies, role readiness, and CNE.</p>
+    <div class="mt-6 flex flex-wrap gap-2"><span class="pill">Storyboarding</span><span class="pill">Learning objectives</span><span class="pill">Interactive navigation</span><span class="pill">Knowledge checks & assessments</span></div>
+  </article>
+  <article class="project card reveal rounded-[1.6rem] p-7 ">
+    <div class="flex items-start justify-between gap-5">
+      <span class="number text-3xl">05</span>
+      <span class="pill">Articulate Storyline 360</span>
+    </div>
+    <h3 class="display text-2xl font-extrabold mt-7">Workplace Etiquette & Professional Communication</h3>
+    <p class="mt-3 leading-7" style="color:var(--muted)">A scenario-based learning experience covering professional communication, workplace behaviour, ethics, and collaboration.</p>
+    <div class="mt-6 flex flex-wrap gap-2"><span class="pill">Decision-making activities</span><span class="pill">Formative assessments</span><span class="pill">Feedback</span><span class="pill">Learner engagement</span></div>
+  </article>
+ </div>
+</section>
+
+<section id="experience" class="reveal" style="background:var(--mint)">
+ <div class="max-w-6xl mx-auto px-5 py-24">
+  <p class="number text-sm tracking-[.2em] uppercase">02 / Experience</p>
+  <h2 class="display text-4xl md:text-5xl font-extrabold mt-3 mb-12">From learning facilitation to instructional design.</h2>
+  <div class="space-y-8">
+   <article class="grid md:grid-cols-[170px_1fr] gap-5">
+    <div class="text-sm font-bold" style="color:var(--muted)">Oct 2022 — Jun 2026</div>
+    <div class="relative pl-7 border-l" style="border-color:#bfd5cd">
+      <span class="absolute -left-[7px] top-1 w-3 h-3 rounded-full timeline-dot" style="background:var(--coral)"></span>
+      <h3 class="display text-2xl font-extrabold">Assistant Professor / Instructional Designer</h3><p class="font-bold mt-1">Pragyan Nursing College, Bhopal, M.P.</p>
+      <ul class="mt-4 space-y-2 leading-7" style="color:var(--muted)">
+       <li>• Designed and developed learner-centered instructional content and learning resources.</li><li>• Created structured learning materials, presentations, educational resources and assessments aligned with learning objectives.</li>
+       <li>• Applied instructional design, adult learning principles and Bloom's Taxonomy to organize complex concepts into clear and engaging learning experiences.</li>
+       <li>• Collaborated with faculty and subject matter experts to review, structure and improve learning content.</li><li>• Supported curriculum and training-resource development and conducted research to improve instructional accuracy and relevance.</li>
+      </ul>
+    </div>
+   </article>
+   <article class="grid md:grid-cols-[170px_1fr] gap-5">
+    <div class="text-sm font-bold" style="color:var(--muted)">Sep 2021 — Oct 2022</div>
+    <div class="relative pl-7 border-l" style="border-color:#bfd5cd">
+      <span class="absolute -left-[7px] top-1 w-3 h-3 rounded-full timeline-dot" style="background:var(--coral)"></span>
+      <h3 class="display text-2xl font-extrabold">Lecturer</h3><p class="font-bold mt-1">Rajabhoj College of Nursing, Betul, M.P.</p>
+      <p class="mt-4 leading-7" style="color:var(--muted)">Delivered structured instruction and learning facilitation; prepared curriculum-aligned presentations and learning resources; designed assessments, quizzes and learning activities; guided learners and supported engagement.</p>
+    </div>
+   </article>
+   <article class="grid md:grid-cols-[170px_1fr] gap-5">
+    <div class="text-sm font-bold" style="color:var(--muted)">2018</div>
+    <div class="relative pl-7 border-l" style="border-color:#bfd5cd">
+      <span class="absolute -left-[7px] top-1 w-3 h-3 rounded-full timeline-dot" style="background:var(--coral)"></span>
+      <h3 class="display text-2xl font-extrabold">Clinical Instructor</h3><p class="font-bold mt-1">Agrasen School and College of Nursing, Betul, M.P.</p>
+      <p class="mt-4 leading-7" style="color:var(--muted)">Provided practical instruction and training, guided learners in applying concepts to practice, facilitated learning activities, supervised performance and evaluated learner progress.</p>
+    </div>
+   </article>
+   <article class="grid md:grid-cols-[170px_1fr] gap-5">
+    <div class="text-sm font-bold" style="color:var(--muted)">2017 — 2018</div>
+    <div class="relative pl-7">
+      <span class="absolute -left-[7px] top-1 w-3 h-3 rounded-full timeline-dot" style="background:var(--coral)"></span>
+      <h3 class="display text-2xl font-extrabold">Nursing Officer</h3><p class="font-bold mt-1">Choithram Hospital & Research Center, Indore, M.P.</p>
+      <p class="mt-4 leading-7" style="color:var(--muted)">Provided nursing care in a NABH-accredited hospital environment and applied clinical procedures and patient-care practices in a professional healthcare setting.</p>
+    </div>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section id="skills" class="reveal" class="max-w-6xl mx-auto px-5 py-24">
+ <div class="grid lg:grid-cols-[.8fr_1.2fr] gap-12">
+  <div><p class="number text-sm tracking-[.2em] uppercase">03 / Toolkit</p><h2 class="display text-4xl font-extrabold mt-3">A practical ID toolkit.</h2><p class="mt-5 leading-7" style="color:var(--muted)">A blend of instructional frameworks, eLearning production, content development, research and AI-assisted productivity.</p></div>
+  <div>
+   <h3 class="font-extrabold mb-4">Instructional design & learning</h3>
+   <div class="flex flex-wrap gap-2 mb-9"><span class="pill">Instructional Design</span><span class="pill">ADDIE</span><span class="pill">Bloom's Taxonomy</span><span class="pill">Storyboarding</span><span class="pill">Learning Objectives</span><span class="pill">Assessment Design</span><span class="pill">Curriculum Development</span><span class="pill">Adult Learning Principles</span><span class="pill">eLearning</span><span class="pill">Learner Engagement</span><span class="pill">Educational Content Development</span><span class="pill">Training & Facilitation</span><span class="pill">Presentation Design</span><span class="pill">Research</span><span class="pill">Subject Matter Expertise</span><span class="pill">Communication</span><span class="pill">SCORM</span><span class="pill">LMS</span></div>
+   <h3 class="font-extrabold mb-4">Tools</h3>
+   <div class="flex flex-wrap gap-2"><span class="pill">Articulate Storyline 360</span><span class="pill">Camtasia</span><span class="pill">Microsoft PowerPoint</span><span class="pill">Microsoft Word</span><span class="pill">Microsoft Excel</span><span class="pill">Canva</span><span class="pill">ChatGPT</span><span class="pill">Claude AI</span><span class="pill">Learning Management Systems (LMS)</span></div>
+  </div>
+ </div>
+</section>
+
+<section id="about" class="reveal" style="background:#173b3a;color:#f8faf7">
+ <div class="max-w-6xl mx-auto px-5 py-24">
+  <div class="grid lg:grid-cols-2 gap-14">
+   <div><p class="text-sm tracking-[.2em] uppercase font-bold" style="color:#f1ad8e">04 / About</p><h2 class="display text-4xl md:text-5xl font-extrabold mt-3">Where learning strategy meets thoughtful design.</h2></div>
+   <div>
+    <p class="text-lg leading-8" style="color:#d5e2df">My experience in instructional design, learning facilitation, curriculum development and educational research helps me transform complex information into clear, purposeful learning experiences. I focus on meaningful objectives, engaging activities, effective assessment and learner-centered content that supports understanding and retention.</p>
+    <div class="mt-8 grid sm:grid-cols-2 gap-4">
+      <div class="rounded-2xl p-5" style="background:#214c48"><b>Education</b><p class="mt-2 text-sm" style="color:#c8d9d5">M.Sc. Nursing — Mental Health Nursing, 81.84%, 2022<br>B.Sc. Nursing, 75.82%, 2017</p></div>
+      <div class="rounded-2xl p-5" style="background:#214c48"><b>Research</b><p class="mt-2 text-sm" style="color:#c8d9d5">Stage fright & coping strategies; Tuberculosis treatment discontinuation.</p></div>
+      <div class="rounded-2xl p-5 sm:col-span-2" style="background:#214c48"><b>Publication</b><p class="mt-2 text-sm" style="color:#c8d9d5">“Patterns of Nursing Care Delivery in India” — Textbook of Advanced Nursing Practice, March 2024.</p><a class="inline-block mt-3 underline font-bold" href="https://amzn.in/d/0bgFuo98" target="_blank" rel="noopener">View publication ↗</a></div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-5 py-24">
+ <div class="grid md:grid-cols-2 gap-6">
+  <div class="card rounded-[1.6rem] p-7"><p class="number text-sm tracking-[.2em] uppercase">Additional strengths</p><h3 class="display text-2xl font-extrabold mt-3">Experience that strengthens learning design.</h3>
+   <p class="mt-4 leading-7" style="color:var(--muted)">Mental Health Nursing · Clinical Nursing Education · Patient Care · Nursing Procedures · Community Health Nursing · Critical Care Exposure · Pediatric Nursing · Maternal & Child Health · Healthcare Education · Clinical Training & Supervision</p>
+  </div>
+  <div class="card rounded-[1.6rem] p-7"><p class="number text-sm tracking-[.2em] uppercase">Training & certifications</p><h3 class="display text-2xl font-extrabold mt-3">Continuous learning.</h3>
+   <ul class="mt-4 space-y-2 leading-7" style="color:var(--muted)">
+    <li>• Articulate Storyline 360: Interactive eLearning Course — Udemy</li><li>• Leadership Skills & Training Skills workshops</li><li>• In-service Education Training</li><li>• Neonatal Resuscitation Program</li><li>• Organ Donation Orientation</li><li>• IV Meiosis — Safe Infusion Workshop</li><li>• HEALTHCON 2019 — Mental Healthcare in India</li><li>• National Level Intercollegiate Research Meet</li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section id="contact" class="reveal" class="grid-bg">
+ <div class="max-w-6xl mx-auto px-5 py-24">
+  <div class="rounded-[2rem] p-8 md:p-12" style="background:#fff;border:1px solid var(--line)">
+   <div class="grid lg:grid-cols-[1fr_auto] gap-10 items-end">
+    <div><p class="number text-sm tracking-[.2em] uppercase">05 / Contact</p><h2 class="display text-4xl md:text-6xl font-extrabold mt-3">Let's build learning that matters.</h2><p class="mt-5 text-lg max-w-2xl leading-8" style="color:var(--muted)">Open to Instructional Design, eLearning, training, curriculum development and learning-content opportunities.</p></div>
+    <div class="space-y-3 text-sm">
+      <a class="block font-bold underline" href="mailto:leza.dsouza@gmail.com">leza.dsouza@gmail.com</a>
+      <a class="block font-bold underline" href="tel:+919131647736">+91 91316 47736</a>
+      <a class="block font-bold underline" href="https://in.linkedin.com/in/leza-d-souza-284b8134b" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a class="block font-bold underline" href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+</main>
+<footer class="max-w-6xl mx-auto px-5 py-8 flex flex-col sm:flex-row justify-between gap-3 text-sm" style="color:var(--muted)">
+ <span>© 2026 Leza D'Souza · Instructional Designer</span><span>Designed around the learner.</span>
+</footer>
+
+</body>
+</html>
